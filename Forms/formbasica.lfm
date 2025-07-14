@@ -1,0 +1,8 @@
+object FormBasica: TFormBasica
+  Left = 562
+  Height = 240
+  Top = 302
+  Width = 320
+  Caption = 'Calculadora Básica'
+  LCLVersion = '4.0.0.4'
+end

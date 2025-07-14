@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Calculadora.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos Y="32"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\formbasica.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormBasica"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Forms.FormBasica"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="49" Y="14"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\formcientifica.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCientifica"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Forms.FormCientifica"/>
+        <EditorIndex Value="2"/>
+        <CursorPos Y="29"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Logic\calculadoracore.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Logic.CalculadoraCore"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="22" Y="9"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Logic\memoriamanager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Logic.MemoriaManager"/>
+        <EditorIndex Value="4"/>
+        <CursorPos X="12"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Main.lpr"/>
+        <UnitName Value="Calculadora"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="4">
+      <Position>
+        <Filename Value="Forms\formcientifica.pas"/>
+        <Caret Line="20" Column="27"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="2" Column="5"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="20" Column="25" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="11" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formcientifica.pas"/>
+        <Caret Line="15" Column="11" TopLine="5"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
