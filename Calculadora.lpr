@@ -10,10 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms,
-  Forms.FormBasica,
-  Forms.FormCientifica,
-  Logic.CalculadoraCore,
+  Forms, Forms.FormBasica, Forms.FormCientifica, Logic.CalculadoraCore,
   Logic.MemoriaManager;
 
 {$R *.res}

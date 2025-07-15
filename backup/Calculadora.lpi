@@ -37,9 +37,28 @@
       <Unit>
         <Filename Value="Forms\formbasica.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="Form1"/>
+        <ComponentName Value="FormBasica"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="FormBasica"/>
+        <UnitName Value="Forms.FormBasica"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Forms\formcientifica.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormCientifica"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Forms.FormCientifica"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Logic\calculadoracore.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Logic.CalculadoraCore"/>
+      </Unit>
+      <Unit>
+        <Filename Value="Logic\memoriamanager.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Logic.MemoriaManager"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -51,10 +70,13 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="Forms"/>
+      <OtherUnitFiles Value="Forms;Logic"/>
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>

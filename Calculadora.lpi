@@ -38,6 +38,7 @@
         <Filename Value="Forms\formbasica.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormBasica"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Forms.FormBasica"/>
       </Unit>
@@ -45,6 +46,7 @@
         <Filename Value="Forms\formcientifica.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="FormCientifica"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Forms.FormCientifica"/>
       </Unit>
@@ -72,6 +74,9 @@
       <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>
+      <Debugging>
+        <DebugInfoType Value="dsDwarf2Set"/>
+      </Debugging>
       <Options>
         <Win32>
           <GraphicApplication Value="True"/>

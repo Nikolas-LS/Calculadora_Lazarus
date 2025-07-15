@@ -9,8 +9,8 @@
         <Filename Value="Calculadora.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos Y="32"/>
-        <UsageCount Value="22"/>
+        <CursorPos X="15" Y="13"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -21,8 +21,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="Forms.FormBasica"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="49" Y="14"/>
-        <UsageCount Value="22"/>
+        <CursorPos X="22"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -35,7 +35,7 @@
         <UnitName Value="Forms.FormCientifica"/>
         <EditorIndex Value="2"/>
         <CursorPos Y="29"/>
-        <UsageCount Value="22"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -45,7 +45,7 @@
         <UnitName Value="Logic.CalculadoraCore"/>
         <EditorIndex Value="3"/>
         <CursorPos X="22" Y="9"/>
-        <UsageCount Value="22"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -54,7 +54,7 @@
         <UnitName Value="Logic.MemoriaManager"/>
         <EditorIndex Value="4"/>
         <CursorPos X="12"/>
-        <UsageCount Value="22"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -64,26 +64,126 @@
         <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="4">
+    <JumpHistory HistoryIndex="29">
       <Position>
-        <Filename Value="Forms\formcientifica.pas"/>
-        <Caret Line="20" Column="27"/>
-      </Position>
-      <Position>
-        <Filename Value="Calculadora.lpr"/>
-        <Caret Line="2" Column="5"/>
-      </Position>
-      <Position>
-        <Filename Value="Calculadora.lpr"/>
-        <Caret Line="20" Column="25" TopLine="4"/>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="26" Column="68" TopLine="10"/>
       </Position>
       <Position>
         <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="11" Column="16"/>
+        <Caret Line="25" Column="68" TopLine="9"/>
       </Position>
       <Position>
-        <Filename Value="Forms\formcientifica.pas"/>
-        <Caret Line="15" Column="11" TopLine="5"/>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="24" Column="68" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="23" Column="68" TopLine="7"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="22" Column="68" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="21" Column="68" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="32" Column="16"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="20" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="21" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="22" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="23" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="24" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="25" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="26" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="27" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="28" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="31" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="34" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="33" Column="48"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="32" Column="48" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="33" Column="48" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="34" Column="48" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="35" Column="48" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="36" Column="48" TopLine="12"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="32" Column="97" TopLine="18"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="33" Column="97" TopLine="19"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="24" Column="62"/>
+      </Position>
+      <Position>
+        <Filename Value="Forms\formbasica.pas"/>
+        <Caret Line="52" TopLine="16"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="14" Column="14"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="13" Column="15"/>
       </Position>
     </JumpHistory>
     <RunParams>

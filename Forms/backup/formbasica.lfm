@@ -1,8 +1,227 @@
 object FormBasica: TFormBasica
-  Left = 562
-  Height = 240
-  Top = 302
-  Width = 320
+  Left = 724
+  Height = 391
+  Top = 342
+  Width = 348
   Caption = 'Calculadora Básica'
+  ClientHeight = 391
+  ClientWidth = 348
   LCLVersion = '4.0.0.4'
+  object lbl_titulo_basico: TLabel
+    Left = 16
+    Height = 24
+    Top = 16
+    Width = 198
+    Caption = 'CALCULADORA BÁSICA'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = 4194304
+    Font.Height = -19
+    Font.Name = 'Trebuchet MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold, fsItalic]
+    ParentFont = False
+  end
+  object bt_basica_cientifica: TButton
+    Left = 240
+    Height = 40
+    Top = 8
+    Width = 96
+    Caption = 'CIENTÍFICA'
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -14
+    Font.Name = '@Microsoft YaHei'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edDisplay: TEdit
+    Left = 16
+    Height = 38
+    Top = 56
+    Width = 320
+    BidiMode = bdRightToLeft
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -21
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentBidiMode = False
+    ParentFont = False
+    TabOrder = 1
+    Text = '0'
+  end
+  object bt1_num7: TButton
+    Left = 16
+    Height = 41
+    Top = 112
+    Width = 67
+    Caption = '7'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 2
+  end
+  object bt2_num4: TButton
+    Left = 16
+    Height = 41
+    Top = 168
+    Width = 67
+    Caption = '4'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 3
+  end
+  object bt3_num1: TButton
+    Left = 16
+    Height = 41
+    Top = 224
+    Width = 67
+    Caption = '1'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 4
+  end
+  object bt4_num8: TButton
+    Left = 96
+    Height = 41
+    Top = 112
+    Width = 67
+    Caption = '8'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 5
+  end
+  object bt5_num5: TButton
+    Left = 96
+    Height = 41
+    Top = 168
+    Width = 67
+    Caption = '5'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 6
+  end
+  object bt6_num2: TButton
+    Left = 96
+    Height = 41
+    Top = 224
+    Width = 67
+    Caption = '2'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 7
+  end
+  object bt7_num9: TButton
+    Left = 176
+    Height = 41
+    Top = 112
+    Width = 67
+    Caption = '9'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 8
+  end
+  object bt8_num6: TButton
+    Left = 176
+    Height = 41
+    Top = 168
+    Width = 67
+    Caption = '6'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 9
+  end
+  object bt9_num3: TButton
+    Left = 176
+    Height = 41
+    Top = 224
+    Width = 67
+    Caption = '3'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 10
+  end
+  object bt10_num0: TButton
+    Left = 96
+    Height = 41
+    Top = 280
+    Width = 67
+    Caption = '0'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 11
+  end
+  object bt11_divisao: TButton
+    Left = 256
+    Height = 41
+    Top = 112
+    Width = 80
+    Caption = '/'
+    Font.Height = -21
+    ParentFont = False
+    TabOrder = 12
+  end
+  object bt12_multi: TButton
+    Left = 256
+    Height = 41
+    Top = 168
+    Width = 80
+    Caption = 'X'
+    Font.Height = -21
+    ParentFont = False
+    TabOrder = 13
+  end
+  object bt13_sub: TButton
+    Left = 256
+    Height = 41
+    Top = 224
+    Width = 80
+    Caption = '-'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 14
+  end
+  object bt14_soma: TButton
+    Left = 256
+    Height = 41
+    Top = 280
+    Width = 80
+    Caption = '+'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 15
+  end
+  object bt15_result: TButton
+    Left = 16
+    Height = 41
+    Top = 336
+    Width = 320
+    Caption = '='
+    Font.Height = -27
+    ParentFont = False
+    TabOrder = 16
+  end
+  object bt16_delt: TButton
+    Left = 176
+    Height = 41
+    Top = 280
+    Width = 67
+    Caption = 'C'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 17
+  end
+  object bt17_virg: TButton
+    Left = 16
+    Height = 41
+    Top = 280
+    Width = 67
+    Caption = '.'
+    Font.Height = -24
+    ParentFont = False
+    TabOrder = 18
+  end
 end

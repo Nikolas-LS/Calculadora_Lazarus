@@ -10,16 +10,15 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, FormBasica, FormCientifica, CalculadoraCore, MemoriaManager
-  { you can add units after this };
+  Forms, Forms.FormBasica, Forms.FormCientifica, Logic.CalculadoraCore, Logic.MemoriaManager;
 
 {$R *.res}
 
 begin
-  RequireDerivedFormResource:=True;
-  Application.Scaled:=True;
+  RequireDerivedFormResource := True;
+  Application.Scaled := True;
   {$PUSH}{$WARN 5044 OFF}
-  Application.MainFormOnTaskbar:=True;
+  Application.MainFormOnTaskbar := True;
   {$POP}
   Application.Initialize;
   Application.CreateForm(TFormBasica, FormBasica);
