@@ -1,7 +1,7 @@
 object FormBasica: TFormBasica
-  Left = 732
+  Left = 734
   Height = 391
-  Top = 358
+  Top = 181
   Width = 348
   Caption = 'Calculadora Básica'
   ClientHeight = 391
