@@ -1,20 +1,40 @@
-unit Logic.CalculadoraCore;
+unit calculadoracore;
 
 {$mode ObjFPC}{$H+}
 
 interface
 
-function Somar (A, B: Double): Double;
-function Subtrair (A, B: Double): Double;
-function Multiplicar (A, B: Int): Int;
-function Dividir (A, B: Double): Double;
+function Somar (a, b: Double): Double;
+function Subtrair (a, b: Double): Double;
+function Multiplicar (a, b: Double): Double;
+function Dividir (a, b: Double): Double;
 
 uses
   Classes, SysUtils;
 
 implementation
 
+function Somar (a, b: Double): Double;
+begin
+  Result := a + b;
+end;
 
+function Subtrair (a, b: Double): Double;
+begin
+  Result := a - b;
+end;
+
+function Multiplicar (a, b: Double): Double;
+begin
+   Result := a * b;
+end;
+
+function Dividir (a, b: Double): Double;
+begin
+   if b = 0 then
+      raise Exception.Create('Erro: divisão por zero');
+   Result := a / b;
+end;
 
 end.
 

@@ -1,12 +1,12 @@
 object FormBasica: TFormBasica
-  Left = 734
+  Left = 935
   Height = 391
-  Top = 181
+  Top = 180
   Width = 348
   Caption = 'Calculadora Básica'
   ClientHeight = 391
   ClientWidth = 348
-  LCLVersion = '4.0.0.4'
+  LCLVersion = '4.2.0.0'
   object lbl_titulo_basico: TLabel
     Left = 16
     Height = 24
@@ -213,6 +213,7 @@ object FormBasica: TFormBasica
     Font.Height = -24
     ParentFont = False
     TabOrder = 17
+    OnClick = bt16_deltClick
   end
   object bt17_virg: TButton
     Left = 16
@@ -223,5 +224,6 @@ object FormBasica: TFormBasica
     Font.Height = -24
     ParentFont = False
     TabOrder = 18
+    OnClick = bt17_virgClick
   end
 end

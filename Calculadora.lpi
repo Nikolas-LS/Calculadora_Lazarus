@@ -40,7 +40,6 @@
         <ComponentName Value="FormBasica"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Forms.FormBasica"/>
       </Unit>
       <Unit>
         <Filename Value="Forms\formcientifica.pas"/>
@@ -48,17 +47,14 @@
         <ComponentName Value="FormCientifica"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Forms.FormCientifica"/>
       </Unit>
       <Unit>
         <Filename Value="Logic\calculadoracore.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="Logic.CalculadoraCore"/>
       </Unit>
       <Unit>
         <Filename Value="Logic\memoriamanager.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="Logic.MemoriaManager"/>
       </Unit>
     </Units>
   </ProjectOptions>

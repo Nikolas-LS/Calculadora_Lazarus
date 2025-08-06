@@ -1,4 +1,4 @@
-unit Forms.FormCientifica;
+unit formcientifica;
 
 {$mode objfpc}{$H+}
 
@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Grids,
-  Logic.CalculadoraCore, Logic.MemoriaManager;
+  calculadoracore, memoriamanager;
 
 type
   TFormCientifica = class(TForm)
@@ -15,13 +15,10 @@ type
   public
   end;
 
-var
-  FormCientifica: TFormCientifica;
-
 implementation
 
 uses
-  Forms.FormBasica; // ← Evita dependência circular
+  formbasica; // ← Evita dependência circular
 
 {$R *.lfm}
 

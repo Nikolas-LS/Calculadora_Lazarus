@@ -1,4 +1,4 @@
-unit MemoriaManager;
+unit Logic.MemoriaManager;
 
 {$mode ObjFPC}{$H+}
 

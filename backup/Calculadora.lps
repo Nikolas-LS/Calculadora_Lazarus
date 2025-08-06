@@ -9,8 +9,8 @@
         <Filename Value="Calculadora.lpr"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
-        <CursorPos X="15" Y="13"/>
-        <UsageCount Value="25"/>
+        <CursorPos X="36" Y="14"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -19,10 +19,10 @@
         <ComponentName Value="FormBasica"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Forms.FormBasica"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="22"/>
-        <UsageCount Value="25"/>
+        <TopLine Value="52"/>
+        <CursorPos X="7" Y="50"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -32,29 +32,26 @@
         <ComponentName Value="FormCientifica"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Forms.FormCientifica"/>
         <EditorIndex Value="2"/>
-        <CursorPos Y="29"/>
-        <UsageCount Value="25"/>
+        <CursorPos X="13" Y="21"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="Logic\calculadoracore.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="Logic.CalculadoraCore"/>
         <EditorIndex Value="3"/>
-        <CursorPos X="22" Y="9"/>
-        <UsageCount Value="25"/>
+        <CursorPos X="41" Y="13"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="Logic\memoriamanager.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="Logic.MemoriaManager"/>
         <EditorIndex Value="4"/>
-        <CursorPos X="12"/>
-        <UsageCount Value="25"/>
+        <CursorPos X="20"/>
+        <UsageCount Value="28"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -63,119 +60,114 @@
         <EditorIndex Value="-1"/>
         <UsageCount Value="10"/>
       </Unit>
+      <Unit>
+        <Filename Value="C:\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2303"/>
+        <CursorPos X="20" Y="2258"/>
+        <UsageCount Value="10"/>
+      </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
       <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="26" Column="68" TopLine="10"/>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="30" Column="40" TopLine="9"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="18" Column="3" TopLine="6"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="16" TopLine="6"/>
       </Position>
       <Position>
         <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="25" Column="68" TopLine="9"/>
+        <Caret Line="54" Column="32" TopLine="33"/>
       </Position>
       <Position>
         <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="24" Column="68" TopLine="8"/>
+        <Caret Line="55" Column="34" TopLine="39"/>
       </Position>
       <Position>
         <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="23" Column="68" TopLine="7"/>
+        <Caret Line="174" Column="36" TopLine="158"/>
       </Position>
       <Position>
         <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="22" Column="68" TopLine="6"/>
+        <Caret Line="177" TopLine="152"/>
       </Position>
       <Position>
         <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="21" Column="68" TopLine="5"/>
+        <Caret Line="53" Column="13" TopLine="40"/>
       </Position>
       <Position>
         <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="32" Column="16"/>
+        <Caret Line="50" Column="7" TopLine="41"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="25" Column="26" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="27" Column="22" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="26" Column="49" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="28" Column="4" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="26" Column="50" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="28" Column="5" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="27" Column="18" TopLine="4"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="28" Column="15" TopLine="5"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="26" Column="49" TopLine="5"/>
       </Position>
       <Position>
         <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="20" Column="48"/>
+        <Caret Line="53" Column="14" TopLine="40"/>
       </Position>
       <Position>
         <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="21" Column="48"/>
+        <Caret Line="50" Column="7" TopLine="39"/>
       </Position>
       <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="22" Column="48"/>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="26" Column="51" TopLine="5"/>
       </Position>
       <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="23" Column="48"/>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="27" Column="19" TopLine="4"/>
       </Position>
       <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="24" Column="48"/>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="26" Column="51" TopLine="4"/>
       </Position>
       <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="25" Column="48"/>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="25" Column="3" TopLine="5"/>
       </Position>
       <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="26" Column="48"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="27" Column="48"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="28" Column="48"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="31" Column="48"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="34" Column="48"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="33" Column="48"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="32" Column="48" TopLine="12"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="33" Column="48" TopLine="12"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="34" Column="48" TopLine="12"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="35" Column="48" TopLine="12"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="36" Column="48" TopLine="12"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="32" Column="97" TopLine="18"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="33" Column="97" TopLine="19"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="24" Column="62"/>
-      </Position>
-      <Position>
-        <Filename Value="Forms\formbasica.pas"/>
-        <Caret Line="52" TopLine="16"/>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="28" Column="39" TopLine="6"/>
       </Position>
       <Position>
         <Filename Value="Calculadora.lpr"/>
@@ -183,7 +175,19 @@
       </Position>
       <Position>
         <Filename Value="Calculadora.lpr"/>
-        <Caret Line="13" Column="10"/>
+        <Caret Line="28" Column="80" TopLine="3"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="27" Column="53"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="29"/>
+      </Position>
+      <Position>
+        <Filename Value="Calculadora.lpr"/>
+        <Caret Line="15" Column="50"/>
       </Position>
     </JumpHistory>
     <RunParams>

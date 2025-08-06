@@ -9,8 +9,10 @@ uses
   {$IFDEF HASAMIGA}
   athreads,
   {$ENDIF}
-  Interfaces, // this includes the LCL widgetset
-  Forms, Forms.FormBasica, Forms.FormCientifica, Logic.CalculadoraCore, Logic.MemoriaManager;
+  Interfaces,
+  Forms,
+  Forms.formbasica, Forms.formcientifica,
+  Logic.calculadoracore, Logic.memoriamanager;
 
 {$R *.res}
 
@@ -22,7 +24,6 @@ begin
   {$POP}
   Application.Initialize;
   Application.CreateForm(TFormBasica, FormBasica);
-  Application.CreateForm(TFormCientifica, FormCientifica);
   Application.Run;
 end.
 

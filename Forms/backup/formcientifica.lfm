@@ -4,5 +4,5 @@ object FormCientifica: TFormCientifica
   Top = 254
   Width = 320
   Caption = 'Calculadora Científica'#10#10
-  LCLVersion = '4.0.0.4'
+  LCLVersion = '4.2.0.0'
 end
